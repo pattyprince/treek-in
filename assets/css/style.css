@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-size: 0.8rem;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #2ab7ca;
+}
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.herosection {
+  width: 80vw;
+  height: 100%;
+  padding-left: 40px;
+}
+
+.herosection h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+.herosection p {
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  background-color: #221d23;
+  width: 89%;
+  height: 80px;
+  color: #c7c8cc;
+  text-align: center;
+  padding: 20px;
+  font-family: "Raleway", sans-serif;
+}
+footer ul {
+  width: 80vw;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+footer h3 {
+  text-align: center;
+}
+
+.contenedor {
+  width: 100%;
+  height: auto;
+}
+
+.imagen {
+  background-image: url(../../img/bg-hero.svg);
+  background-color: black;
+}
+
+.caract h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.estadisticas p {
+  width: 90vw;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 20px;
+}
+
+.precios {
+  width: 100%;
+  height: auto;
+  background-image: url(../../img/bg-price.png);
+  background-color: #808080;
+  background-position: center;
+  background-size: 80%;
+  color: #fff;
+}
+
+.precios h2 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.precios1 {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+
+.precios2 {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+
+.btn__precio1 {
+  background: #2ab7ca;
+  border: 0;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn__precio2 {
+  background: #2ab7ca;
+  border: 0;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}

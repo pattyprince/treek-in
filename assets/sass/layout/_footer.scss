@@ -1,0 +1,20 @@
+footer {
+  background-color: $raisingblack;
+  width: 89%;
+  height: 80px;
+  color: $lavendergray;
+  text-align: center;
+  padding: 20px;
+  font-family: $primary-font;
+
+  ul {
+    width: 80vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  h3 {
+    text-align: center;
+  }
+}
