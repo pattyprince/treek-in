@@ -1,22 +1,44 @@
 .btn__nav1 {
-  width: 100px;
+  width: 120px;
   height: 40px;
   background-color: $white;
   border: 0;
-  font-family: $secondary-font;
-  margin-right: 20px;
+  font-family: $primary-font;
+  font-size: $medium;
+  margin-right: 10px;
   color: $onyx;
+  &:hover {
+    background-color: $platinum;
+  }
+}
+
+.btn__nav1 a {
+  text-decoration: none;
+  color: $onyx;
+  a:visited {
+    text-decoration: none;
+  }
 }
 
 .btn__nav2 {
-  width: 100px;
+  width: 120px;
   height: 40px;
   background-color: $ballblue;
   border: 0;
-  font-family: $secondary-font;
+  font-family: $primary-font;
+  font-size: $medium;
   color: $white;
+  &:hover {
+    background-color: $middleblue;
+  }
 }
-
+.btn__nav2 a {
+  text-decoration: none;
+  color: $white;
+  a:visited {
+    text-decoration: none;
+  }
+}
 .btn__precio1 {
   width: 220px;
   height: 40px;

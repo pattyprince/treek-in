@@ -23,6 +23,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-left: 25px;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #fff;
@@ -34,9 +40,10 @@ body {
   display: block;
   color: #333745;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
 }
 
 .topnav a:hover {
@@ -47,6 +54,8 @@ body {
 .topnav a.active {
   background-color: #fff;
   color: #333745;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
 }
 
 .topnav .icon {
@@ -96,9 +105,15 @@ body {
   }
 
   .nav__btn {
+    height: 60px;
     display: flex;
     margin-right: 120px;
-    margin-top: 20px;
+    margin-top: 10px;
+  }
+
+  .logo {
+    width: auto;
+    margin-left: 0;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -122,14 +137,18 @@ body {
   width: 80vw;
   height: 100%;
   padding-left: 40px;
+  margin-top: 50px;
 }
 
 .herosection h1 {
   font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .herosection p {
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -198,9 +217,15 @@ footer p {
   padding: 20px;
 }
 
-.caract h2,
-h3 {
+.caract h2 {
   font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.caract h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -212,6 +237,7 @@ h3 {
 .estadisticas p {
   width: 90vw;
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
   padding: 5px;
 }
 
@@ -342,22 +368,46 @@ h3 {
   }
 }
 .btn__nav1 {
-  width: 100px;
+  width: 120px;
   height: 40px;
   background-color: #fff;
   border: 0;
-  font-family: "Open Sans", sans-serif;
-  margin-right: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  margin-right: 10px;
   color: #333745;
+}
+.btn__nav1:hover {
+  background-color: #e8e8e8;
+}
+
+.btn__nav1 a {
+  text-decoration: none;
+  color: #333745;
+}
+.btn__nav1 a a:visited {
+  text-decoration: none;
 }
 
 .btn__nav2 {
-  width: 100px;
+  width: 120px;
   height: 40px;
   background-color: #2ab7ca;
   border: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
   color: #fff;
+}
+.btn__nav2:hover {
+  background-color: #77d1dd;
+}
+
+.btn__nav2 a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn__nav2 a a:visited {
+  text-decoration: none;
 }
 
 .btn__precio1 {

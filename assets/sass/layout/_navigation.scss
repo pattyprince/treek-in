@@ -8,7 +8,12 @@ body {
   margin: 0;
   font-family: $secondary-font;
 }
-
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-left: 25px;
+  // border: green solid 1px;
+}
 .topnav {
   overflow: hidden;
   background-color: $white;
@@ -20,9 +25,10 @@ body {
   display: block;
   color: $onyx;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-family: $primary-font;
+  font-size: $medium;
 }
 
 .topnav a:hover {
@@ -33,11 +39,12 @@ body {
 .topnav a.active {
   background-color: $white;
   color: $onyx;
+  font-family: $primary-font;
+  font-size: $medium;
 }
 
 .topnav .icon {
   display: none;
-  // color: $onyx;
 }
 
 .d-none {
@@ -79,12 +86,25 @@ body {
     display: flex;
     justify-content: space-between;
     margin-left: 120px;
+    // border: red solid 1px;
   }
   .nav__btn {
+    height: 60px;
     display: flex;
     margin-right: 120px;
-    margin-top: 20px;
+    margin-top: 10px;
+    // border: blue solid 1px;
   }
+  .logo {
+    width: auto;
+    margin-left: 0;
+    // border: green solid 1px;
+  }
+  // .nav__links {
+  //   width: 450px;
+  //   height: 80px;
+  //   border: orangered solid 1px;
+  // }
 }
 
 // @media only screen and (min-width: 768px) {

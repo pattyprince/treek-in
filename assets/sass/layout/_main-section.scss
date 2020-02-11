@@ -18,11 +18,17 @@
 .caract {
   padding: 20px;
 }
-.caract h2,
-h3 {
+.caract h2 {
   font-family: $primary-font;
+  font-size: $x-large;
   text-align: center;
 }
+.caract h3 {
+  font-family: $primary-font;
+  font-size: $large;
+  text-align: center;
+}
+
 .caract .estadisticas h3 {
   text-align: left;
   padding-left: 5px;
@@ -30,6 +36,7 @@ h3 {
 .estadisticas p {
   width: 90vw;
   font-family: $secondary-font;
+  font-size: $medium;
   padding: 5px;
 }
 
