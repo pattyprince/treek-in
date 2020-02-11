@@ -3,11 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Treek-in</title>
   </head>
   <body>
-    <nav></nav>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active"
+          ><img src="./assets/img/Logo.svg" alt="Treek-in"
+        /></a>
+        <a href="#news">Acerca de</a>
+        <a href="#contact">Características</a>
+        <a href="#about">Precios</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <!-- <div style="padding-left:16px">
+        <h2>Responsive Topnav Example</h2>
+        <p>Resize the browser window to see how it works.</p>
+      </div> -->
+    </nav>
 
     <header class="herosection">
       <h1>Haz trekking sin parar</h1>
@@ -35,10 +56,10 @@
       <section class="precios">
         <h2>Precios</h2>
         <div class="precios1">
-          <h3>Treek-in free</h3>
-          <h4>$0 / mes</h4>
+          <h5>Treek-in free</h5>
+          <h2>$0 / mes</h2>
           <hr />
-          <ul>
+          <ul class="precios1__list">
             <li>Ver mapas creados por usuarios</li>
             <li>Concertar con otros usuarios</li>
           </ul>
@@ -46,10 +67,10 @@
           <button class="btn__precio1">Obtén Free</button>
         </div>
         <div class="precios2">
-          <h3>Treek-in Premium</h3>
-          <h4>$3500 / mes</h4>
+          <h5>Treek-in Premium</h5>
+          <h2>$3500 / mes</h2>
           <hr />
-          <ul>
+          <ul class="precios2__list">
             <li>Ver mapas creados por usuarios</li>
             <li>Concertar con otros usuarios</li>
             <li>Definir mejores rutas</li>
@@ -69,5 +90,17 @@
       </ul>
       <h3>© 2018 Trekk-in SPA.</h3>
     </footer>
+
+    <!-- j__queries -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>
