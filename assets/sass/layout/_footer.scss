@@ -8,14 +8,19 @@ footer {
   font-family: $secondary-font;
 
   ul {
-    width: 90%;
+    width: 250px;
     list-style: none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 0 auto;
-    font-family: $secondary-font;
+    padding: 0px;
+    font-family: $primary-font;
+    font-size: $medium;
   }
   p {
+    font-family: $primary-font;
+    font-size: $medium;
     text-align: center;
   }
 
@@ -28,14 +33,18 @@ footer {
   .footer__items {
     display: flex;
     justify-content: space-between;
+    align-content: center;
   }
   .f__item1 {
     width: 350px;
+    height: 30px;
     display: flex;
+    align-items: center;
     margin-left: 30px;
   }
   .f__item2 {
     width: 200px;
+    height: 50px;
     display: flex;
     margin-right: 20px;
   }
