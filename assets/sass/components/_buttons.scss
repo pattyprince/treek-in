@@ -47,6 +47,9 @@
   color: $white;
   font-family: $secondary-font;
   margin-top: 10px;
+  &:hover {
+    background-color: $middleblue;
+  }
 }
 
 .btn__precio2 {
@@ -57,4 +60,7 @@
   color: $white;
   font-family: $secondary-font;
   margin-top: 10px;
+  &:hover {
+    background-color: $middleblue;
+  }
 }

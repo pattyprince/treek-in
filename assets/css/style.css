@@ -471,6 +471,9 @@ hr {
   font-family: "Open Sans", sans-serif;
   margin-top: 10px;
 }
+.btn__precio1:hover {
+  background-color: #77d1dd;
+}
 
 .btn__precio2 {
   width: 250px;
@@ -480,4 +483,7 @@ hr {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   margin-top: 10px;
+}
+.btn__precio2:hover {
+  background-color: #77d1dd;
 }
