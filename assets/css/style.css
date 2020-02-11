@@ -270,7 +270,7 @@ footer .footer__list {
 .precios {
   width: 100%;
   height: 100%;
-  background-image: url(/assets/img/bg-price.svg);
+  background-image: url(../img/bg-price.svg);
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
@@ -358,7 +358,7 @@ hr {
 
   .imagen {
     height: 700px;
-    background-image: url(/assets/img/bg-hero.svg);
+    background-image: url(../img/bg-hero.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
