@@ -11,7 +11,7 @@
     <title>Treek-in</title>
   </head>
   <body>
-    <nav>
+    <nav class="nav__bar">
       <div class="topnav" id="myTopnav">
         <a href="#home" class="active"
           ><img src="./assets/img/Logo.svg" alt="Treek-in"
@@ -23,19 +23,18 @@
           <i class="fa fa-bars"></i>
         </a>
       </div>
-
-      <!-- <div style="padding-left:16px">
-        <h2>Responsive Topnav Example</h2>
-        <p>Resize the browser window to see how it works.</p>
-      </div> -->
+      <div class="nav__btn d-none">
+        <button class="btn__nav1">Iniciar Sesión</button>
+        <button class="btn__nav2">Regístrate</button>
+      </div>
     </nav>
-
     <header class="herosection">
       <h1>Haz trekking sin parar</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ad
         exercitationem! Vel iure consectetur dolorum cupiditate aliquam, velit
-        rem deleniti odit repellendus.
+        rem deleniti odit repellendus. quaerat eos labore recusandae ipsum
+        minima obcaecati magnam esse..
       </p>
     </header>
     <main class="contenedor">
@@ -43,42 +42,48 @@
       <section class="caract">
         <h2>Características</h2>
         <div class="estadisticas">
-          <img src="./assets/img/resultado-grafico.gif" alt="" />
-          <h3>Estadísticas de tu progreso</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus,
-            eum maiores, quaerat eos labore recusandae ipsum minima obcaecati
-            magnam esse optio est numquam, corporis fuga dicta quibusdam omnis
-            maxime eaque.
-          </p>
+          <div class="est__graf">
+            <img src="./assets/img/resultado-grafico.gif" alt="" />
+          </div>
+          <div class="est__text">
+            <h3>Estadísticas de tu progreso</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusamus, eum maiores, quaerat eos labore recusandae ipsum minima
+              obcaecati magnam esse optio est numquam, corporis fuga dicta
+              quibusdam omnis maxime eaque.
+            </p>
+          </div>
         </div>
       </section>
       <section class="precios">
         <h2>Precios</h2>
-        <div class="precios1">
-          <h5>Treek-in free</h5>
-          <h2>$0 / mes</h2>
-          <hr />
-          <ul class="precios1__list">
-            <li>Ver mapas creados por usuarios</li>
-            <li>Concertar con otros usuarios</li>
-          </ul>
-          <hr />
-          <button class="btn__precio1">Obtén Free</button>
-        </div>
-        <div class="precios2">
-          <h5>Treek-in Premium</h5>
-          <h2>$3500 / mes</h2>
-          <hr />
-          <ul class="precios2__list">
-            <li>Ver mapas creados por usuarios</li>
-            <li>Concertar con otros usuarios</li>
-            <li>Definir mejores rutas</li>
-            <li>Mapas Offline</li>
-            <li>Integración con otras aplicaciones</li>
-          </ul>
-          <hr />
-          <button class="btn__precio2">Obtén free</button>
+        <div class="precios__amb">
+          <div class="precios1">
+            <h5>Treek-in free</h5>
+            <h2>$0 / mes</h2>
+            <hr />
+            <ul class="precios1__list">
+              <li>Ver mapas creados por usuarios</li>
+              <li>Concertar con otros usuarios</li>
+            </ul>
+            <hr />
+            <button class="btn__precio1">Obtén Free</button>
+          </div>
+          <div class="precios2">
+            <h5>Treek-in Premium</h5>
+            <h2>$3500 / mes</h2>
+            <hr />
+            <ul class="precios2__list">
+              <li>Ver mapas creados por usuarios</li>
+              <li>Concertar con otros usuarios</li>
+              <li>Definir mejores rutas</li>
+              <li>Mapas Offline</li>
+              <li>Integración con otras aplicaciones</li>
+            </ul>
+            <hr />
+            <button class="btn__precio2">Obtén free</button>
+          </div>
         </div>
       </section>
     </main>

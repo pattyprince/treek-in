@@ -1,7 +1,17 @@
-.contenedor {
-  width: 100%;
-  // display: grid;
-  // grid-template-columns: 1fr 1fr;
-  // grid-template-rows: auto;
-  margin: 0 auto;
+@media only screen and (min-width: 600px) {
+  .estadisticas {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+  }
+
+  .precios__amb {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+  }
 }

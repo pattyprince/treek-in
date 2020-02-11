@@ -2,10 +2,6 @@
   width: 80vw;
   height: 100%;
   padding-left: 40px;
-  // background-image: url(../../../assets/img/bg-hero.png);
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center;
 }
 
 .herosection h1 {
@@ -14,4 +10,12 @@
 
 .herosection p {
   font-family: $secondary-font;
+}
+
+@media only screen and (min-width: 600px) {
+  .herosection {
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
 }

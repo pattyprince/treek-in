@@ -40,9 +40,8 @@ h3 {
   background-color: $white;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1750px;
+  background-size: 2000px;
   color: $white;
-  // margin-top: 10px;
   padding-top: 200px;
   padding-bottom: 80px;
 }
@@ -54,7 +53,7 @@ h3 {
 
 .precios1 {
   width: 230px;
-  height: 300px;
+  height: 350px;
   background-color: white;
   color: black;
   font-family: $secondary-font;
@@ -67,9 +66,9 @@ h3 {
 }
 
 .precios1__list {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  margin-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .precios2 {
@@ -92,4 +91,65 @@ h3 {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  nav {
+    width: 90%;
+    margin-left: 80px;
+  }
+  .imagen {
+    height: 700px;
+    background-image: url(/assets/img/bg-hero.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: $white;
+  }
+
+  .estadisticas {
+    width: 800px;
+    margin-top: 50px;
+  }
+  .est__graf {
+    width: 350px;
+  }
+  .est__text {
+    width: 350px;
+
+    p {
+      width: 350px;
+    }
+  }
+  .precios {
+    width: 100%;
+    height: 100%;
+    // background-image: url(/assets/img/bg-price.svg);
+    // background-color: $white;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    background-size: 1550px;
+    color: $white;
+    // margin-top: 10px;
+    padding-top: 200px;
+    padding-bottom: 80px;
+  }
+  .precios__amb {
+    width: 800px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .precio1 {
+    width: 250px;
+    height: 350px;
+    margin: 0px;
+  }
+  .precio2 {
+    width: 250px;
+    height: 350px;
+    margin: 0px;
+  }
 }

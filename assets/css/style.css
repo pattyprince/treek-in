@@ -53,6 +53,14 @@ body {
   display: none;
 }
 
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -80,11 +88,36 @@ body {
     text-align: right;
   }
 }
-.contenedor {
-  width: 100%;
-  margin: 0 auto;
-}
+@media only screen and (min-width: 600px) {
+  .nav__bar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+  }
 
+  .nav__btn {
+    display: flex;
+    margin-right: 120px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .estadisticas {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+  }
+
+  .precios__amb {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+  }
+}
 .herosection {
   width: 80vw;
   height: 100%;
@@ -99,12 +132,19 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+@media only screen and (min-width: 600px) {
+  .herosection {
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+}
 footer {
   background-color: #221d23;
   height: 80px;
   color: #c7c8cc;
   text-align: center;
-  padding: 20px;
+  padding-top: 50px;
   font-family: "Raleway", sans-serif;
 }
 footer ul {
@@ -163,7 +203,7 @@ h3 {
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1750px;
+  background-size: 2000px;
   color: #fff;
   padding-top: 200px;
   padding-bottom: 80px;
@@ -176,7 +216,7 @@ h3 {
 
 .precios1 {
   width: 230px;
-  height: 300px;
+  height: 350px;
   background-color: white;
   color: black;
   font-family: "Open Sans", sans-serif;
@@ -189,9 +229,9 @@ h3 {
 }
 
 .precios1__list {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  margin-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .precios2 {
@@ -214,6 +254,86 @@ h3 {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  nav {
+    width: 90%;
+    margin-left: 80px;
+  }
+
+  .imagen {
+    height: 700px;
+    background-image: url(/assets/img/bg-hero.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #fff;
+  }
+
+  .estadisticas {
+    width: 800px;
+    margin-top: 50px;
+  }
+
+  .est__graf {
+    width: 350px;
+  }
+
+  .est__text {
+    width: 350px;
+  }
+  .est__text p {
+    width: 350px;
+  }
+
+  .precios {
+    width: 100%;
+    height: 100%;
+    background-size: 1550px;
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 80px;
+  }
+
+  .precios__amb {
+    width: 800px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .precio1 {
+    width: 250px;
+    height: 350px;
+    margin: 0px;
+  }
+
+  .precio2 {
+    width: 250px;
+    height: 350px;
+    margin: 0px;
+  }
+}
+.btn__nav1 {
+  width: 100px;
+  height: 40px;
+  background-color: #fff;
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 20px;
+  color: #333745;
+}
+
+.btn__nav2 {
+  width: 100px;
+  height: 40px;
+  background-color: #2ab7ca;
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
 }
 
 .btn__precio1 {
