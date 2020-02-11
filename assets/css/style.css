@@ -217,7 +217,7 @@ footer .footer__list {
 .imagen {
   width: 100vw;
   height: 300px;
-  background-image: url(/assets/img/bg-hero.svg);
+  background-image: url(../img/bg-hero.svg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 160%;
@@ -252,19 +252,6 @@ footer .footer__list {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   padding: 5px;
-}
-
-.animation-element {
-  opacity: 0;
-  transition: all 500ms linear;
-  transform: translate3d(0px, 20px, 0px);
-  transition-delay: 0.2s;
-  position: relative;
-}
-
-.animation-element.inview {
-  opacity: 1;
-  transform: translate3d(0px, 0px, 0px);
 }
 
 .precios {
@@ -358,7 +345,6 @@ hr {
 
   .imagen {
     height: 700px;
-    background-image: url(../img/bg-hero.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -374,7 +360,7 @@ hr {
     opacity: 0;
     transition: all 500ms linear;
     transform: translate3d(0px, 20px, 0px);
-    transition-delay: 1s;
+    transition-delay: 0.2s;
     position: relative;
   }
 
