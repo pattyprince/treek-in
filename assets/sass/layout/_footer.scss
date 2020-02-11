@@ -3,12 +3,12 @@ footer {
   height: 80px;
   color: $lavendergray;
   text-align: center;
-  padding-top: 50px;
-  // padding: 20px;
+  padding: 0px;
+  padding-top: 40px;
   font-family: $secondary-font;
 
   ul {
-    width: 80vw;
+    width: 90%;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -17,6 +17,10 @@ footer {
   }
   p {
     text-align: center;
+  }
+
+  .footer__list {
+    margin: 0 auto;
   }
 }
 

@@ -163,11 +163,12 @@ footer {
   height: 80px;
   color: #c7c8cc;
   text-align: center;
-  padding-top: 50px;
+  padding: 0px;
+  padding-top: 40px;
   font-family: "Open Sans", sans-serif;
 }
 footer ul {
-  width: 80vw;
+  width: 90%;
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -176,6 +177,9 @@ footer ul {
 }
 footer p {
   text-align: center;
+}
+footer .footer__list {
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 600px) {
@@ -245,7 +249,7 @@ footer p {
   opacity: 0;
   transition: all 500ms linear;
   transform: translate3d(0px, 20px, 0px);
-  transition-delay: 1s;
+  transition-delay: 0.2s;
   position: relative;
 }
 
@@ -288,6 +292,9 @@ footer p {
   padding: 0;
   margin: 0;
 }
+.precios1:hover {
+  box-shadow: 12px 5px #e8e8e8;
+}
 
 hr {
   margin: 0px;
@@ -319,6 +326,9 @@ hr {
   font-size: 16px;
   padding: 0;
   margin: 0;
+}
+.precios2:hover {
+  box-shadow: 12px 5px #e8e8e8;
 }
 
 .precios2 h2 {
