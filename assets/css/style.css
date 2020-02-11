@@ -145,7 +145,7 @@ footer {
   color: #c7c8cc;
   text-align: center;
   padding-top: 50px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 footer ul {
   width: 80vw;
@@ -153,11 +153,30 @@ footer ul {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
 }
-footer h3 {
+footer p {
   text-align: center;
 }
 
+@media only screen and (min-width: 600px) {
+  .footer__items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .f__item1 {
+    width: 350px;
+    display: flex;
+    margin-left: 30px;
+  }
+
+  .f__item2 {
+    width: 200px;
+    display: flex;
+    margin-right: 20px;
+  }
+}
 .contenedor {
   width: 100%;
   height: auto;
@@ -309,6 +328,11 @@ h3 {
     width: 250px;
     height: 350px;
     margin: 0px;
+  }
+
+  .precios1__list {
+    padding-top: 40px;
+    padding-bottom: 70px;
   }
 
   .precio2 {

@@ -5,7 +5,7 @@ footer {
   text-align: center;
   padding-top: 50px;
   // padding: 20px;
-  font-family: $primary-font;
+  font-family: $secondary-font;
 
   ul {
     width: 80vw;
@@ -13,8 +13,26 @@ footer {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
+    font-family: $secondary-font;
   }
-  h3 {
+  p {
     text-align: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .footer__items {
+    display: flex;
+    justify-content: space-between;
+  }
+  .f__item1 {
+    width: 350px;
+    display: flex;
+    margin-left: 30px;
+  }
+  .f__item2 {
+    width: 200px;
+    display: flex;
+    margin-right: 20px;
   }
 }
