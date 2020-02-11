@@ -356,19 +356,6 @@ hr {
     margin-top: 50px;
   }
 
-  .animation-element {
-    opacity: 0;
-    transition: all 500ms linear;
-    transform: translate3d(0px, 20px, 0px);
-    transition-delay: 0.2s;
-    position: relative;
-  }
-
-  .animation-element.inview {
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px);
-  }
-
   .est__text {
     width: 350px;
   }
@@ -411,6 +398,19 @@ hr {
     margin: 0px;
   }
 }
+.animation-element {
+  opacity: 0;
+  transition: all 500ms linear;
+  transform: translate3d(0px, 20px, 0px);
+  transition-delay: 0.2s;
+  position: relative;
+}
+
+.animation-element.inview {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
 .btn__nav1 {
   width: 120px;
   height: 40px;
